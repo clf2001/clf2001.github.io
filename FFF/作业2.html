@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>高考志愿表</title
+	</head>
+	<body>
+		
+		<table border="1" width="1200px" style="border: ;" >
+			<caption style="font-size: large;">高考志愿表</caption>
+			<tr>
+				<th colspan="2">姓名</th>
+				<th colspan="2"><input type="text" value="曹龙飞"/></th>
+				<th colspan="3">性别
+				<input type="radio" name="sex">男</input>
+				<input type="radio" name="sex">女</input>
+				</th>
+				<th>年龄<input type="number" value="18"/></th>
+				<th colspan="2">民族<input list="xxx" value="汉族"></th>
+				<th colspan="2" rowspan="4"><img src="IMG_20190917_205615.jpg" width="50px" ></th>
+			</tr>
+			<tr>
+				<th colspan="2">出生日期</th>
+				<th colspan="2"><input type="date"/></th>
+				<th colspan="3">准考证号</th>
+				<th colspan="3">12345678</th>
+			</tr>
+			<tr>
+				<th colspan="5" rowspan="2">高考成绩</th>
+				<th colspan="1">语文</th>
+				<th colspan="1"><input type="number" value="100" /></th>
+				<th colspan="1">数学</th>
+				<th colspan="1"><input type="number" value="107" /></th>
+			</tr>
+			<tr>
+				<th colspan="1">英语</th>
+				<th colspan="1"><input type="number" value="111" /></th>
+				<th colspan="1">理科综合</th>
+				<th colspan="1"><input type="number" value="233" /></th>
+			</tr>
+			<tr>
+				<th colspan="2">所属省份</th>
+				<th colspan="6"><input list="xxx" value="湖南">
+		            <datalist id="xxx">
+			           <option value="湖南">
+			           <option value="四川">
+			           <option value="新疆">
+			           <option value="北京">	
+		            </datalist>
+		       </th>
+				<th colspan="2">家庭住址</th>
+				<th colspan="6">xxxxxxxx</th>
+			</tr>
+			<tr>
+				<th colspan="2" rowspan="2">个人爱好</th>
+				<th colspan="10" rowspan="2"><input type="text" value="游戏,美食,音乐."/></th>
+			</tr>
+			<tr></tr>
+            <tr>
+            	<th colspan="2">志愿一</th>
+                <td>湘潭大学</td>
+            	<th colspan="2">专业一</th>
+            	<td>网络工程</td>
+            	<th colspan="1">专业二</th>
+            	<td>****</td>
+            	<th colspan="3">是否服从调剂<input type="radio" name="option" >是</input>
+            		<input type="radio" name="option">否</input></th>
+            </tr>
+            <tr>
+            	<th colspan="2">志愿二</th>
+            	<td>****</td>
+            	<th colspan="2">专业一</th>
+            	<td>****</td>
+            	<th colspan="1">专业二</th>
+            	<td>****</td>
+            	<th colspan="3">是否服从调剂<input type="radio" name="option" >是</input>
+            		<input type="radio" name="option">否</input></th>
+            </tr>
+		</table>
+		
+	</body>
+</html>
