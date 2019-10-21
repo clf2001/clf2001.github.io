@@ -1,0 +1,66 @@
+body {
+	margin: 0 auto;
+	width: 55rem;
+}
+
+.leirong1 {
+	float: right;
+}
+
+.daohang {
+	color: #FFFFFF;
+}
+
+#a:hover {
+	color: #A52A2A;
+}
+.box3 {
+	height: 100%;
+	float: right;
+	margin: 10px;
+	border-color: fuchsia;
+}
+
+.box1 {
+	height: 100%;
+	float: left;
+	margin: 10px;
+	border-color: coral;
+}
+
+.box2 {
+	height: 100%;
+	float: left;
+	margin: 10px;
+	border-color: #8A2BE2;
+}
+
+.box1-2 {
+	border-radius: 8px;
+	background-color: coral;
+}
+
+.box1-1 {
+	margin: auto;
+	float: none;
+}
+
+.box2-1 {
+	margin: auto;
+	float: none;
+}
+
+.box2-2 {
+	border-radius: 8px;
+	background-color: blueviolet;
+}
+
+.box3-2 {
+	border-radius: 8px;
+	background-color: fuchsia;
+}
+
+.box3-1 {
+	margin: auto;
+	float: none;
+}

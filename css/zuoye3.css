@@ -1,0 +1,78 @@
+body {
+	margin: 0 auto;
+	width: 55rem;
+}
+
+.head {
+	background-color: brown;
+	width: 55rem;
+	margin: 0 auto;
+}
+
+.leader {
+	width: 55rem;
+	height: 3.125rem;
+	background-color: #fff;
+	border: none;
+	margin: 0 auto;
+}
+
+.daohang {
+	display: inline-block
+}
+
+#a {
+	display: block;
+	color: #6a6a6a;
+	font-size: 1.875rem;
+	padding: 0 2.5rem;
+	text-decoration: none;
+}
+
+#a:hover {
+	color: #A52A2A;
+}
+
+.part1 {
+	width: 55rem;
+	height: 1.875rem;
+	margin: 0 auto;
+	text-decoration: none;
+}
+
+.head221 {
+	margin-top: 15px;
+	color: burlywood;
+}
+
+.head222 {
+	margin-top: 15px;
+	color: burlywood;
+}
+
+.head223 {
+	margin-top: 0.9375rem;
+	color: burlywood;
+}
+
+.part2 {
+	margin-top: 1.25rem;
+}
+
+.tupian1 {
+	float: left;
+}
+
+.leirong1 {
+	float: right;
+	width: 30rem;
+	height:300px;
+	background-color: darkseagreen
+}
+.part3{
+	margin: 0 auto;
+	margin-top: 330px;
+}
+h1 {
+	color: #A52A2A;
+}
