@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>腾讯首页</title>
+		<link rel="stylesheet" type="text/css" href="../css/zuoye6.css" />
+	</head>
+
+	<body>
+		<div>
+			<div class="top">
+				<div class="logo">
+					<a target="_blank" href="https://www.qq.com/">
+						<img width="150px" src="作业6图片1.jpg" style="margin: 33px 50px 25px;">
+					</a>
+				</div>
+				<div class="top_right">
+					<div class="qqzone">
+						<a href="https://qzone.qq.com" target="_blank"><img src="作业6图片2.png" /></a>
+					</div>
+					<div class="qqemail">
+						<a href="https://mail.qq.com/cgi-bin/loginpage" target="_blank"><img src="作业6图片3.png" /></a>
+					</div>
+					<div class="qqlogin">
+						<a href="https://graph.qq.com/oauth2.0/show?which=Login&display=pc&response_type=code&client_id=101487368&redirect_uri=https%3A%2F%2Fpacaio.match.qq.com%2Fqq%2FloginBack%3Fsurl%3Dhttps%3A%2F%2Fwww.qq.com%2F&state=5b481c68e379d" style="color: deepskyblue;">登录</a>
+					</div>
+				</div>
+				<div class="search_box center">
+					<div class="search_left">
+						<div class="selectBox">
+							<div class="select">
+								<span class="selectText">网页</span>
+							</div>
+							<ul class="selectOption" style="display: none;">
+								<li class="selectOption">网页</li>
+								<li class="selectOption">图片</li>
+								<li class="selectOption">视频</li>
+								<li class="selectOption">音乐</li>
+								<li class="selectOption">地图</li>
+								<li class="selectOption">问问</li>
+								<li class="selectOption">百科</li>
+								<li class="selectOption">新闻</li>
+								<li class="selectOption">购物</li>
+							</ul>
+						</div>
+					</div>
+					<input type="text">
+					<div class="search_btn">
+						<p>搜狗搜索</p>
+					</div>
+				</div>
+			</div>
+			<div class="daohanglan">
+				<ul class="ul1">
+					<li>
+						<a href="">新闻</a>
+					</li>
+					<li>
+						<a href>视频</a>
+					</li>
+					<li>
+						<a href>图片</a>
+					</li>
+					<li>
+						<a href>军事</a>
+					</li>
+					<li>
+						<a href>体育</a>
+					</li>
+					<li>
+						<a href>NBA</a>
+					</li>
+					<li>
+						<a href>娱乐</a>
+					</li>
+					<li>
+						<a href>财经</a>
+					</li>
+					<li>
+						<a href>科技</a>
+					</li>
+					<li>
+						<a href>时尚</a>
+					</li>
+					<li>
+						<a href>汽车</a>
+					</li>
+					<li>
+						<a href>房产</a>
+					</li>
+					<li>
+						<a href>教育</a>
+					</li>
+					<li>
+						<a href>文化</a>
+					</li>
+					<li>
+						<a href>游戏</a>
+					</li>
+					<li>
+						<a href>星座</a>
+					</li>
+					<li>
+						<a href>更多</a>
+					</li>
+
+				</ul>
+
+			</div>
+			<div class="kuanggao">
+				<a href=""><img src="作业6图片4.png" width="1430px" </a>
+			</div>
+			<div class="body0"> 
+				<div class="body1-1">
+					<img src="作业6图片7.png"/ width="500px">
+				</div>
+				<div class="body1-2">
+					<img src="作业6图片8.png"/ width="500px">
+				</div>
+				<div class="body1-3">
+					<img src="作业6图片9.png"/ width="500px">
+				</div>
+			</div>
+		</div>
+		<script>
+			var selectBox = document.getElementsByClassName('selectBox')[0];
+			var Select = document.getElementsByClassName('select')[0];
+			var selectText = document.getElementsByClassName('selectText')[0];
+			var option = document.getElementsByClassName('selectOption')[0];
+			var option1 = document.getElementsByClassName('selectOption1')[0];
+			var option2 = document.getElementsByClassName('selectOption2')[0];
+			var option3 = document.getElementsByClassName('selectOption3')[0];
+			var option4 = document.getElementsByClassName('selectOption4')[0];
+			var option5 = document.getElementsByClassName('selectOption5')[0];
+			var option6 = document.getElementsByClassName('selectOption6')[0];
+			var option7 = document.getElementsByClassName('selectOption7')[0];
+			var option8 = document.getElementsByClassName('selectOption8')[0];
+			var option9 = document.getElementsByClassName('selectOption9')[0];
+			// 点击select
+			Select.onmouseenter = function() {
+				option.style.display = 'block'
+			}
+			// 鼠标移除
+			selectBox.onmouseleave = function() {
+				option.style.display = 'none'
+			}
+			option1.onclick = function() {
+				option.style.display = 'none'
+				selectText.innerHTML = '网页'
+			}
+			option2.onclick = function() {
+				option.style.display = 'none'
+				selectText.innerHTML = '图片'
+			}
+			option3.onclick = function() {
+				option.style.display = 'none'
+				selectText.innerHTML = '视频'
+			}
+			option4.onclick = function() {
+				option.style.display = 'none'
+				selectText.innerHTML = '音乐'
+			}
+			option5.onclick = function() {
+				option.style.display = 'none'
+				selectText.innerHTML = '地图'
+			}
+			option6.onclick = function() {
+				option.style.display = 'none'
+				selectText.innerHTML = '问问'
+			}
+			option7.onclick = function() {
+				option.style.display = 'none'
+				selectText.innerHTML = '百科'
+			}
+			option8.onclick = function() {
+				option.style.display = 'none'
+				selectText.innerHTML = '新闻'
+			}
+			option9.onclick = function() {
+				option.style.display = 'none'
+				selectText.innerHTML = '购物'
+			}
+		</script>
+	</body>
+
+</html>
