@@ -1,0 +1,80 @@
+
+
+			.menu{
+				display: flex;
+				flex-wrap: wrap;
+			}
+			.menu li{
+				list-style: none;
+				padding: 0;
+				
+			}
+	        .menu li:nth-child(1){
+	        	background-color: white;
+	        }
+	        .menu li:nth-child(2){
+	        	background-color: white;
+	        }
+	  
+	        .menu li:nth-child(4){
+	        	background-color:  lavender;
+	        }
+	        .menu li:nth-child(5){
+	        	background-color:  beige;
+	        }
+	        .menu li:nth-child(6){
+	        	background-color: magenta ;
+	        }
+	        .menu li:nth-child(7){
+	        	background-color: #FFFFFF;
+	        }
+	      @media (min-width:400px ) {
+	        	.menu li{
+	        			
+	        		flex-basis: 50%;  
+	        		flex-direction: row;
+	        		
+	        		}
+	        }
+	          @media (min-width:800px ) {
+	        	.menu{
+	        		flex-wrap: nowrap;	        	
+	        		}
+	        }
+	       ul{
+	       	display: flex;
+	       	flex-wrap: wrap;
+	       	margin: 0px;
+	       	padding: 0px;
+	       	
+	       }
+	        ul li{
+	        	list-style: none;
+	        	height: 42px;
+	        	text-align: center;
+	        	line-height: 42px;
+	        	flex-basis:100% ;
+	        	
+	        }
+	        ul li a{
+	        	text-decoration: none;
+	        	display: block;
+	        	color: black;
+	        	font-weight: bold;
+	        	line-height: 42px;
+	        }
+	        div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+	       div.container {
+              text-align: center;
+             padding: 10px 20px;
+              }
+	        .polaroid:hover{
+	        border: brown solid 3px;
+	        
+	        }
+	        
