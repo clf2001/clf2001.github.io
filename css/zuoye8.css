@@ -1,0 +1,11 @@
+.ip {
+	margin: 0 auto;
+	width: 700px;
+	height: auto;
+}
+.tb{
+	margin: auto;
+	width: 700px;
+	border-collapse: collapse;
+}
+
