@@ -6,21 +6,21 @@
 		<title>简单的Javascript应用</title>
 		<link rel="stylesheet" type="text/css" href="../css/zuoye8.css" />
 		<style type="text/css">
-				a{
-		text-decoration: none;
-		animation: cartoon 2s ;
-		animation-iteration-count: infinite;
-		animation-direction: alternate;	
-	}
+			a {
+				text-decoration: none;
+				animation: cartoon 2s;
+				animation-iteration-count: infinite;
+				animation-direction: alternate;
+			}
 		</style>
 	</head>
 
 	<body>
-		<div class="ip" >
-			<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;学生信息统计</h2>
-		学号<input type="text" id="xuehao">
-		姓名<input type="text" id="xingming">
-		<input type="button" value="添加" onclick="add()">
+		<div class="ip">
+			<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;学生信息统计</h2> 学号
+			<input type="text" id="xuehao"> 姓名
+			<input type="text" id="xingming">
+			<input type="button" value="添加" onclick="add()">
 		</div>
 		<br>
 		<br>
@@ -29,50 +29,52 @@
 				var x = document.createElement("tr")
 				var a = document.createElement("th")
 				var b = document.createElement("th")
-				var del=document.createElement("th")
-				var tab=document.getElementById('table')
+				var del = document.createElement("th")
+				var tab = document.getElementById('table')
 				tab.appendChild(x)
 				x.appendChild(a)
 				x.appendChild(b)
 				x.appendChild(del)
 				a.innerHTML = document.getElementById('xingming').value
 				b.innerHTML = document.getElementById('xuehao').value
-	            del.innerHTML="<a href='javascript:;' onclick='cancel(this)'>删除</a>"
+				del.innerHTML = "<a href='javascript:;' onclick='cancel(this)'>删除</a>"
 			}
 
-			function cancel(obj){
-				var tr=obj.parentNode.parentNode;
+			function cancel(obj) {
+				var tr = obj.parentNode.parentNode;
 				tr.parentNode.removeChild(tr);
 			}
 		</script>
 		<table id="table" class="tb" border="1">
-				<tr>
-					<th>学号</th>
-					<th>姓名</th>
-					<th>修改</th>
-				</tr>
-				<tr>
-					<th>xxx</th>
-					<th>xxx</th>
-					<th>
-						<a href="javascript:void(0)" onclick="removeRow(this)">删除</a>
-					</th>
-				</tr>
-			</table>
+			<tr>
+				<th>学号</th>
+				<th>姓名</th>
+				<th>修改</th>
+			</tr>
+			<tr>
+				<th>xxx</th>
+				<th>xxx</th>
+				<th>
+					<a href="javascript:void(0)" onclick="removeRow(this)">删除</a>
+				</th>
+			</tr>
+		</table>
 
-		<div><div class="_th-container">
-    <div class="_th-click-hover" onclick="changTime()">
-        x1
-    </div>
-    <div class="_th-item _item-x2" onclick="changTime(2,0,true)">&gt;</div>
-    <div class="_th-item _item-x-2" onclick="changTime(-2,0,true)">&lt;</div>
-    <div class="_th-item _item-x4" onclick="changTime(0,4)">&gt;&gt;</div>
-    <div class="_th-item _item-x-4" onclick="changTime(0,-4)">&lt;&lt;</div>
-    <div class="_th-item _item-reset" onclick="changTime(0,0,false,true)">O</div>
-</div>
-<div class="_th_cover-all-show-times _th_hidden">
-    <div class="_th_times">x1</div>
-</div></div>
+		<div>
+			<div class="_th-container">
+				<div class="_th-click-hover" onclick="changTime()">
+					x1
+				</div>
+				<div class="_th-item _item-x2" onclick="changTime(2,0,true)">&gt;</div>
+				<div class="_th-item _item-x-2" onclick="changTime(-2,0,true)">&lt;</div>
+				<div class="_th-item _item-x4" onclick="changTime(0,4)">&gt;&gt;</div>
+				<div class="_th-item _item-x-4" onclick="changTime(0,-4)">&lt;&lt;</div>
+				<div class="_th-item _item-reset" onclick="changTime(0,0,false,true)">O</div>
+			</div>
+			<div class="_th_cover-all-show-times _th_hidden">
+				<div class="_th_times">x1</div>
+			</div>
+		</div>
 	</body>
 
 </html>
