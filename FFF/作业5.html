@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>兴趣相关</title>
+		<style>
+			* {
+				padding: 0px;
+				margin: 0px;
+			}
+			
+			body {
+				background: url(作业5图片2.jpg);
+				height: 1000px;
+				background-size: cover;
+			}
+			
+			.head {
+				height: 84px;
+				background-color: #323235;
+			}
+			
+			.logo1 {
+				width: 20%;
+				display: block;
+				float: left;
+				height: 84px;
+			}
+			
+			.logo2 {
+				text-decoration: none;
+				color: yellow;
+				font-size: -webkit-xxx-large;
+				font-family: "微软雅黑";
+				text-align: center;
+			}
+			
+			.logo3 {
+				width: 80%;
+				display: block;
+				float: left;
+				height: 84px;
+			}
+			
+			.logo4 {
+				display: block;
+				float: left;
+				width: 80%;
+				list-style: none;
+				overflow: hidden;
+			}
+			
+			.logo4 li {
+				float: left;
+				width: 12%;
+			}
+			
+			.logo4 li a {
+				text-decoration: none;
+				display: block;
+				line-height: 39px;
+				text-align: center;
+				color: #c9c9dd;
+			}
+			
+			.logo4 li a:hover {
+				color: yellow;
+			}
+			
+			.body {
+				height: 400px;
+				width: 1200px;
+				border-style: dotted;
+				margin-top: 300px;
+				margin-left: 200px;
+			}
+			
+			.wrap {
+				margin: 50px auto;
+				width: 604px;
+				height: 298px;
+				position: relative;
+				overflow: hidden;
+				background-size: cover;
+				margin-top: 400px;
+			}
+			
+			.pic {
+				width: 679px;
+				height: 437px;
+				cursor: pointer;
+				/*鼠标不同的光标*/
+			}
+			
+			.pic1 {
+				background: url(作业5图片1.jpeg);
+				position: absolute;
+				top: 0;
+				left: 0;
+				z-index: 1;
+			}
+			
+			.pic_num {
+				width: 74px;
+				height: 79px;
+				position: absolute;
+				top: 40px;
+				left: 17px;
+				background: url(img/pic_num.jpg);
+				background-position: 0 0;
+				display: none;
+			}
+			
+			.pic2 {
+				background: url(img/c2495a2974dee1f93fd2e7a784e3c1cc.jpg);
+				position: absolute;
+				top: 0;
+				left: 679px;
+				z-index: 3;
+			}
+			
+			.pic_num2 {
+				width: 74px;
+				height: 79px;
+				position: absolute;
+				top: 40px;
+				left: 17px;
+				background: url(img/pic_num.jpg);
+				background-position: -69px 0;
+			}
+			
+			.pic3 {
+				background: url(img/18e341ddedf9311513ca5cb11b06e601.jpg);
+				position: absolute;
+				top: 0;
+				left: 770px;
+				z-index: 5;
+			}
+			
+			.pic3_num {
+				width: 74px;
+				height: 79px;
+				position: absolute;
+				top: 40px;
+				left: 17px;
+				background: url(img/pic_num.jpg);
+				background-position: -138px 0;
+			}
+			
+			.pic4 {
+				background: url(img/5c3f4da9a942f6404ef6647557ca3627.jpg);
+				position: absolute;
+				top: 0;
+				left: 861px;
+				z-index: 7;
+			}
+			
+			.pic_num4 {
+				width: 74px;
+				height: 79px;
+				position: absolute;
+				top: 40px;
+				left: 17px;
+				background: url(img/pic_num.jpg);
+				background-position: -207px 0;
+			}
+			
+			.pic5 {
+				background: url(img/a699c6ab50a0f478b3605277c3b3b6f8.jpg);
+				position: absolute;
+				top: 0;
+				left: 952px;
+				z-index: 9;
+			}
+			
+			.pic_num5 {
+				width: 73px;
+				height: 79px;
+				top: 40px;
+				left: 17px;
+				background: url(img/pic_num.jpg);
+				background-position: -276px 0;
+			}
+			
+			.base {
+				height: 134px;
+				margin-left: 60px;
+			}
+			
+			.base1 {
+				list-style: none;
+				overflow: hidden;
+			}
+			
+			.base1 li {
+				float: left;
+				margin-left: 60px;
+				transition: width 2s;
+				-webkit-transition: width 2s;
+				transition-property: transform;
+				transition-duration: 0.4s;
+				transition-timing-function: ease;
+				transition-delay: 0s;
+			}
+		</style>
+
+	</head>
+
+	<body>
+		<div class="head">
+			<div class="logo1">
+				<h1>&nbsp;&nbsp;&nbsp;&nbsp;<a class="logo2" onclick="logo" href="http://pvp.qq.com">王者荣耀</a></h1>
+			</div>
+			<div class="logo3" id="icon">
+				<p>
+				</p>
+				<ul class="logo4">
+					<li>
+						<a title="王者荣耀" onclick="PTTSendClick('link','home','官网首页');" href="//pvp.qq.com/" target="_blank">官网首页
+							<br>
+							<em>HOME</em></a>
+					</li>
+					<li>
+						<a title="游戏资料" onclick="PTTSendClick('link','data','游戏资料');" href="/web201605/herolist.shtml" target="_blank">游戏资料
+							<br><em>DATA</em></a>
+					</li>
+					<li>
+						<a title="内容中心" onclick="PTTSendClick('link','strategy','内容中心');" href="/raiders/" target="_blank">内容中心
+							<br><em>CONTENTS</em></a>
+					</li>
+					<li>
+						<a title="赛事中心" onclick="PTTSendClick('link','match','赛事中心');" href="/match/center.shtml?ADTAG=pvp.index.nav.matchcenter" target="_blank">赛事中心
+							<br><em>MATCH</em></a>
+					</li>
+					<li>
+						<a title="商城/合作" onclick="PTTSendClick('link','CULTURE','百态王者');" href="/cp/a20171023pvppc/" target="_blank">百态王者
+							<br><em>CULTURE</em></a>
+					</li>
+					<li>
+						<a title="社区互动" onclick="PTTSendClick('link','Community','社区互动');" href="javascript:void(0)">社区互动
+							<br><em>COMMUNITY</em></a>
+					</li>
+					<li>
+						<a title="玩家支持" onclick="PTTSendClick('link','player','玩家支持');" href="javascript:void(0)" target="_blank">玩家支持
+							<br><em>PLAYER</em></a>
+					</li>
+					<li>
+						<a title="我模仿的网站" onclick="PTTSendClick('link','my copy')" href="http://pvp.qq.com">我模仿的网站
+							<br><em>MY COPY</em></a>
+					</li>
+				</ul>
+				<p></p>
+			</div>
+		</div>
+		<div class="wrap">
+			<div class="pic1 pic">
+				<div class="pic_num1 pic_num"></div>
+			</div>
+			<div class="pic2 pic">
+				<div class="pic_num2 pic_num"></div>
+			</div>
+			<div class="pic3 pic">
+				<div class="pic_num3 pic_num"></div>
+			</div>
+			<div class="pic4 pic">
+				<div class="pic_num4 pic_num"></div>
+			</div>
+			<div class="pic5 pic">
+				<div class="pic_num5 pic_num"></div>
+			</div>
+		</div>
+		<div class="base">
+			<ul class="base1">
+				<li>
+					<a title="爆料站入口" class="tganime-image-hover" onclick="PTTSendClick('quickLink','item1','item1');" href="/webplat/info/news_version3/15592/29030/29082/29156/m11740/201705/588200.shtml" target="_blank">
+						<img alt="爆料站入口" src="作业5图片3.png">
+					</a>
+				</li>
+				<li>
+					<a title="王者营地" class="tganime-image-hover" onclick="PTTSendClick('quickLink','item2','item2');" href="/webplat/info/news_version3/15592/29030/29082/29156/m11740/201705/588204.shtml" target="_blank">
+						<img alt="王者营地" src="作业5图片6.jpg">
+					</a>
+				</li>
+				<li>
+					<a title="王者文化站" class="tganime-image-hover" onclick="PTTSendClick('quickLink','item3','item3');" href="/webplat/info/news_version3/15592/29030/29082/29156/m11740/201705/588203.shtml" target="_blank">
+						<img alt="王者文化站" src="作业5图片4.jpg">
+					</a>
+				</li>
+				<li>
+					<a title="赛事专区" class="tganime-image-hover" onclick="PTTSendClick('quickLink','item4','item4');" href="/webplat/info/news_version3/15592/29030/29082/29156/m11740/201705/588035.shtml" target="_blank">
+						<img alt="赛事专区" src="作业5图片5.jpg"></a>
+				</li>
+			</ul>
+		</div>
+	</body>
+
+</html>
