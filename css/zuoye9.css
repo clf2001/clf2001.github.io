@@ -1,0 +1,21 @@
+.leader {
+	margin: 0 auto;
+	width: 900px;
+	height: 60px;
+	background-color:rgb(25,0,0,0.7);
+}
+
+.leader li {
+	float: left;
+	display: inline-block;
+	text-align: center;
+	padding: 14px 16px;
+	font-size: 25px;
+}
+.leader li a{
+	color: white;
+}
+.leirong{
+	width: 900px;
+	margin: 0 auto;
+}

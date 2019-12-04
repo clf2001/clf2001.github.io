@@ -1,0 +1,149 @@
+body {
+	width: 1140px;
+	margin: auto;
+}
+
+#header_logo {
+	display: none;
+}
+
+img {
+	vertical-align: middle;
+}
+
+#header_menu {
+	margin: 30px auto 0px auto;
+	width: 100%;
+}
+
+.menu_border.first {
+	margin-right: 5%;
+}
+
+.menu_border {
+	border-top: solid black 2px;
+	margin-top: 80px;
+	width: 15%;
+	height: 1px;
+	background-position: center;
+	float: left;
+}
+
+#header_menu #nav {
+	width: 65%;
+	float: left;
+	margin: 0 auto;
+	text-align: justify;
+	padding: 0 20px 0 20px;
+}
+
+#header_menu #nav ul {
+	list-style: none;
+	text-align: justify;
+	padding: 0;
+}
+
+#header_menu #nav * {
+	display: inline;
+}
+
+#header_menu #nav ul div a {
+	text-decoration: none;
+	color: black;
+}
+
+#header_menu_ul div {
+	margin-right: 70.6px;
+}
+
+.end {
+	background-color: #000000;
+	margin: auto;
+	text-align: center;
+	line-height: 30px;
+	color: white;
+}
+
+form {
+	padding: 3em;
+	width: 65%;
+	margin: auto;
+	background: url(../FFF/作业10图片5.png);
+	border: 1px solid #d2cece;
+}
+
+input[type="submit"] {
+	color: black;
+	font-size: 1.5em;
+	letter-spacing: 2px;
+	border: none;
+	text-transform: uppercase;
+	font-weight: 500;
+	padding: 0.4em 0.5em;
+	text-decoration: none;
+	background: white;
+	margin: 1em auto;
+	-webkit-appearance: none;
+	width: 25%;
+	display: block;
+}
+
+input.name {
+	padding: 0.8em 0.7em;
+	width: 100%;
+	color: #fff;
+	font-size: 1.1em;
+	background: transparent;
+	border: 1px solid white;
+	outline: none;
+	-webkit-appearance: none;
+	margin: 1em 0 0;
+	letter-spacing: 2px;
+}
+
+input.email {
+	padding: 1em 0.5em;
+	background: transparent;
+	border: 1px solid white;
+	width: 100%;
+	color: #fff;
+	font-size: 1em;
+	outline: none;
+	margin: 1em 0;
+	-webkit-appearance: none;
+	letter-spacing: 2px;
+}
+
+textarea {
+	resize: none;
+	width: 100%;
+	color: #fff;
+	background: transparent;
+	border: 1px solid white;
+	font-size: 1em;
+	outline: none;
+	padding: 1em 0.5em;
+	min-height: 150px;
+	-webkit-appearance: none;
+	letter-spacing: 2px;
+}
+.leirong{
+	    display: flex;
+    width: 1140px;
+    background-color: white;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.leirong1 {
+	background-color: #f7f7f7;
+	width: 282px;
+	height: 360px;
+	margin: 35px;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-right: 50px;
+}
+
+
